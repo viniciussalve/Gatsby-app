@@ -16,19 +16,19 @@ const IndexPage = () => (
             <div className="LinkGroup">
               <div className="Social">
                 <FaGithub />
-                <a href="https://github.com/viniciussalve">Github
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/viniciussalve">Github
               </a>
               </div>
 
               <div className="Social">
                 <FaBehance />
-                <a href="https://www.behance.net/viniciusalvess">Behance
+                <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/viniciusalvess">Behance
               </a>
               </div>
 
               <div className="Social">
                 <FaLinkedin />
-                <a href="https://www.linkedin.com/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/">
                   Linkedin
               </a>
               </div>

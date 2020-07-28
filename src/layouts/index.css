@@ -172,10 +172,44 @@ a {
 }
 
 @media (max-width: 767.98px) {
+  .Hero {
+    height: 750px;
+  }
+
   .HeroImage {
     display: none;
   }
 }
 
 @media (max-width: 576px) {
+  .Hero {
+    height: 550px;
+  }
+
+  .HeroText h1 {
+    font-size: 30px;
+  }
+
+  .HeroText h3 {
+    font-size: 20px;
+  }
+
+  .HeroText p {
+    font-size: 15px;
+  }
+
+  .LinkGroup {
+    flex-direction: row;
+  }
+
+  .LinkGroup .Social {
+    font-size: 12px;
+    margin-right: 0;
+    padding: 8px;
+    margin-left: 5px;
+  }
+
+  .LinkGroup .Social a {
+    font-size: 12px;
+  }
 }
